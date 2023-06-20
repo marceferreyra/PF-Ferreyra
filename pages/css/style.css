@@ -6,8 +6,6 @@
     box-sizing: border-box;
 }
 
-
-
 /** navbar **/
 
 .navbar {
@@ -64,14 +62,17 @@ body {
 
 .mainContacto h1 {
     padding-left: 20px;
+    padding-bottom: 30px;
 }
 
 .mb-3 textarea {
     margin-left: 0px;
+    min-width: 60%;
 }
 
 #exampleFormControlInput1 {
     background-color: rgb(193, 193, 193);
+    min-width: 40%;
 }
 
 #exampleFormControlTextarea1 {
@@ -324,6 +325,10 @@ hr {
 
 /* Grid Home*/
 
+#body a {
+    text-decoration: none;
+}
+
 #body {
 
     display: grid;
@@ -334,6 +339,7 @@ hr {
         " nav   main    main"
         " redes   main    main"
         " redes   footer  footer";
+
 }
 
 #body header {
@@ -360,7 +366,6 @@ hr {
     background-color: rgb(193, 193, 193);
     position: static;
 
-
 }
 
 
@@ -368,9 +373,6 @@ hr {
     list-style: none;
     padding: 30px !important;
 }
-
-
-
 
 #body main {
     grid-area: main;
@@ -427,18 +429,14 @@ hr {
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        list-style: none;
-        font-family: 'Nunito Sans', sans-serif;
-        font-weight: 700;
         position: fixed;
-        background-color: rgb(193, 193, 193);
         width: 100%;
         height: 75px;
     }
 
     #body nav ul li {
         padding: 20px !important;
-        background-color: rgb(193, 193, 193);
+
     }
 
     #body #redes {
@@ -447,15 +445,6 @@ hr {
         display: flex;
         flex-direction: row;
         background-color: #144272;
-        align-items: center;
-    }
-
-    #body header {
-        background-color: rgb(193, 193, 193);
-        grid-area: header;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     hr {
@@ -465,20 +454,28 @@ hr {
 
 /** query MOBILE **/
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
 
     #body {
-        grid-template-columns: 30% 40% 30%;
+        grid-template-columns: 40% 30% 30%;
         grid-template-rows: 75px 25% 25% 150px 150px;
         grid-template-areas:
             " nav   nav   nav"
             " main   main    main"
             " main   main    main"
-            " header   footer  footer"
-            " redes redes redes ";
+            " footer   footer  footer"
+            " header redes redes ";
     }
 
-    
+    #body header {
+        background-color: #144272;
+        grid-area: header;
+    }
+
+    #body .nav li {
+        padding: 10px !important;
+    }
+
     #body nav ul {
 
         grid-area: nav;
@@ -492,7 +489,7 @@ hr {
         position: fixed;
         background-color: rgb(193, 193, 193);
         width: 1008%;
-        height: 75  px;
+
     }
 
     #body main img {
@@ -501,6 +498,7 @@ hr {
     }
 
     #body nav ul li {
+
         padding: 20px !important;
         background-color: rgb(193, 193, 193);
     }
@@ -512,9 +510,41 @@ hr {
         flex-direction: row;
         background-color: #144272;
         align-items: center;
+        justify-content: flex-end;
     }
 
-    hr {
-        margin-bottom: 50px;
+    #body .redes {
+        height: 50px;
+        width: 50px;
+        margin-left: -40px;
+
+    }
+}
+
+hr {
+    margin-bottom: 50px;
+}
+
+/** query contacto TABLET **/
+
+@media (max-width: 769px) {
+
+    .mb-3 #exampleFormControlInput1 {
+        min-width: 50%;
+    }
+    .mb-3 textarea {
+        min-width: 75%;
+    }
+}
+
+/** query contacto MOBILE **/
+
+@media (max-width: 426px) {
+
+    .mb-3 #exampleFormControlInput1 {
+        min-width: 75%;
+    }
+    .mb-3 textarea {
+        min-width: 80%;
     }
 }
