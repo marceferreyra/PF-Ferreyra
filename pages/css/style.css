@@ -140,6 +140,8 @@ h2 {
     height: 50px;
     width: 100%;
     color: rgba(128, 128, 128, 0.751);
+    margin-top: 5%;
+    margin-bottom: 0px;
 }
 
 p {
@@ -165,6 +167,7 @@ p {
     align-items: center;
     padding-top: 120px;
     padding-bottom: 50px;
+    
 }
 
 .productos {
@@ -206,7 +209,8 @@ p {
 #aberturas {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin-top: 0px;
 }
 
 #fotoAberturas {
@@ -219,6 +223,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0px;
 }
 
 #fotoAsadores {
@@ -230,6 +235,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #fotoGalerias {
