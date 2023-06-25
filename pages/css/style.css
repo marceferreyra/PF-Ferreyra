@@ -27,15 +27,13 @@ ul li a {
 .navbar-brand img {
     height: 70px;
     width: 150px;
-   }
+}
 
-   button .navbar-toggler-icon {
+button .navbar-toggler-icon {
     background-color: rgb(128, 128, 128);
-   }
+}
 
 /** body **/
-
-
 
 #logo {
     height: 100vh;
@@ -48,9 +46,8 @@ body {
 
 /** Contacto **/
 
-
 .form-control {
-    width: 40%;
+    width: 35%;
 }
 
 .mb-3 {
@@ -70,12 +67,12 @@ body {
 
 .mb-3 textarea {
     margin-left: 0px;
-    min-width: 60%;
+    min-width: 50%;
 }
 
 #exampleFormControlInput1 {
     background-color: rgb(193, 193, 193);
-    min-width: 40%;
+    min-width: 35%;
 }
 
 #exampleFormControlTextarea1 {
@@ -106,7 +103,6 @@ label {
 }
 
 form input {
-
     background-color: rgb(193, 193, 193);
 }
 
@@ -151,13 +147,11 @@ p {
     width: 100%;
 }
 
-.mapa  {
+.mapa {
     display: flex;
     justify-content: center;
     padding: 30px;
 }
-
-
 
 /** Productos **/
 
@@ -167,7 +161,6 @@ p {
     align-items: center;
     padding-top: 120px;
     padding-bottom: 50px;
-    
 }
 
 .productos {
@@ -187,8 +180,6 @@ p {
     font-weight: 600;
 }
 
-
-
 /** Trabajos **/
 
 .carousel-inner img {
@@ -205,7 +196,6 @@ p {
     padding-bottom: 50px;
 }
 
-
 #aberturas {
     display: flex;
     justify-content: center;
@@ -217,7 +207,6 @@ p {
     background-color: rgb(79 81 96 / 74%);
     padding: 0px
 }
-
 
 #asadores {
     display: flex;
@@ -235,7 +224,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 #fotoGalerias {
@@ -310,7 +298,6 @@ footer div p {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 #redes {
@@ -325,220 +312,7 @@ footer div p {
 }
 
 hr {
-    margin-bottom: 50px;
-}
-
-/* Grid Home*/
-
-#body a {
-    text-decoration: none;
-}
-
-#body {
-
-    display: grid;
-    grid-template-columns: 120px 1fr 1fr;
-    grid-template-rows: 50px 30% 30% 200px;
-    grid-template-areas:
-        " header header header"
-        " nav   main    main"
-        " redes   main    main"
-        " redes   footer  footer";
-
-}
-
-#body header {
-    background-color: rgba(7, 7, 7, 0.946);
-    grid-area: header;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#logoHome {
-    height: 70px;
-    width: 150px;
-}
-
-#body ul li a {
-    color: #144272 !important;
-    font-size: 700
-    ;
-}
-
-
-
-#body nav ul {
-    grid-area: nav;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 700;
-    background-color: rgb(193, 193, 193);
-    position: static;
-    
-
-}
-
-
-#body nav ul li {
-    list-style: none;
-    padding: 30px !important;
-}
-
-#body main {
-    grid-area: main;
-    height: 150vh;
-}
-
-#body nav {
-    background-color: rgb(193, 193, 193);
-}
-
-#body footer {
-    grid-area: footer;
-
-}
-
-#body #redes {
-    background-color: rgb(193, 193, 193);
-    grid-area: redes;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#body #redes a {
-    padding: 15px
-}
-
-/*query home TABLET*/
-
-@media (max-width: 768px) {
-
-    #body {
-        grid-template-columns: 30% 40% 30%;
-        grid-template-rows: 75px 25% 25% 150px 150px;
-        grid-template-areas:
-            " header   nav   nav"
-            " main   main    main"
-            " main   main    main"
-            " footer   footer  footer"
-            " redes redes redes ";
-    }
-
-    #body header {
-        background-color: rgba(7, 7, 7, 0.946);
-        grid-area: header;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #body nav ul {
-        grid-area: nav;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        position: fixed;
-        width: 100%;
-        height: 75px;
-        background-color: rgba(7, 7, 7, 0.946);
-    }
-
-    #body nav ul li {
-        padding: 20px !important;
-    }
-
-    #body ul li a {
-        color: rgb(243, 234, 234) !important;
-    } 
-
-    #body #redes {
-
-        grid-area: redes;
-        display: flex;
-        flex-direction: row;
-        background-color: #144272;
-    }
-
-    hr {
-        margin-bottom: 50px;
-    }
-}
-
-/** query MOBILE **/
-
-@media (max-width: 426px) {
-
-    #body {
-        grid-template-columns: 40% 30% 30%;
-        grid-template-rows: 75px 25% 25% 150px 150px;
-        grid-template-areas:
-            " nav   nav   nav"
-            " main   main    main"
-            " main   main    main"
-            " footer   footer  footer"
-            " header redes redes ";
-    }
-
-    #body header {
-        background-color: #144272;
-        grid-area: header;
-    }
-
-    #body .nav li {
-        padding: 10px !important;
-    }
-
-    #body nav ul {
-
-        grid-area: nav;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        list-style: none;
-        font-family: 'Nunito Sans', sans-serif;
-        font-weight: 700;
-        position: fixed;
-        background-color:rgba(7, 7, 7, 0.946);
-        width: 1008%;
-
-    }
-
-    #body main img {
-        width: 100%;
-        height: 500px;
-    }
-
-    #body nav ul li {
-
-        padding: 20px !important;
-        background-color:rgba(7, 7, 7, 0.946);
-    }
-
-    #body #redes {
-
-        grid-area: redes;
-        display: flex;
-        flex-direction: row;
-        background-color: #144272;
-        align-items: center;
-        justify-content: flex-end;
-    }
-
-    #body .redes {
-        height: 50px;
-        width: 50px;
-        margin-left: -40px;
-
-    }
-}
-
-hr {
+    color: white;
     margin-bottom: 50px;
 }
 
@@ -549,6 +323,7 @@ hr {
     .mb-3 #exampleFormControlInput1 {
         min-width: 50%;
     }
+
     .mb-3 textarea {
         min-width: 75%;
     }
@@ -561,6 +336,7 @@ hr {
     .mb-3 #exampleFormControlInput1 {
         min-width: 75%;
     }
+
     .mb-3 textarea {
         min-width: 80%;
     }
