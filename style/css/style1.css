@@ -1,0 +1,326 @@
+/** selector **/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** navbar **/
+.navbar {
+  background-color: rgba(7, 7, 7, 0.946);
+  position: fixed;
+  width: 100%;
+}
+
+.nav-item {
+  padding-left: 30px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+}
+
+ul li a {
+  color: rgb(243, 234, 234) !important;
+}
+
+.navbar-brand img {
+  height: 70px;
+  width: 150px;
+}
+
+button .navbar-toggler-icon {
+  background-color: rgb(128, 128, 128);
+}
+
+/** body **/
+#logo {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  background-color: #144272;
+}
+
+/** Nosotros **/
+.mainNosotros {
+  padding-top: 150px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  text-align: justify;
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 100%;
+}
+
+body .mainNosotros {
+  width: 100%;
+}
+
+#nosotros {
+  padding-bottom: 25px;
+}
+
+h1 {
+  color: rgb(128, 128, 128);
+  padding-left: 5%;
+}
+
+h2 {
+  background-color: rgb(2, 23, 42);
+  height: 50px;
+  width: 100%;
+  color: rgba(128, 128, 128, 0.751);
+  margin-top: 5%;
+  margin-bottom: 0px;
+}
+
+p {
+  color: rgba(128, 128, 128, 0.72);
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+/** Productos **/
+#productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fluidP {
+  max-width: 100%;
+  height: 500px !important;
+}
+
+.mainProductos {
+  padding-top: 100px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+}
+
+/** Trabajos **/
+.carousel-inner img {
+  width: 600px;
+  height: 550px;
+  padding: 40px;
+}
+
+#trabajos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+#aberturas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+#fotoAberturas {
+  background-color: rgba(79, 81, 96, 0.74);
+  padding: 0px;
+}
+
+#asadores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+#fotoAsadores {
+  background-color: rgba(79, 81, 96, 0.74);
+  padding: 0px;
+}
+
+#galerias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fotoGalerias {
+  background-color: rgba(79, 81, 96, 0.74);
+  padding: 0px;
+}
+
+#muebles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fotoMuebles {
+  background-color: rgba(79, 81, 96, 0.74);
+  padding: 0px;
+}
+
+#pyP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fotoPyP {
+  background-color: rgba(79, 81, 96, 0.74);
+  padding: 0px;
+}
+
+#espejos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fotoEspejos {
+  background-color: rgba(79, 81, 96, 0.74);
+  padding: 0px;
+}
+
+#barandas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fotoBarandas {
+  background-color: rgba(79, 81, 96, 0.74);
+  padding: 0px;
+}
+
+#mamparas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fotoMamparas {
+  background-color: rgba(79, 81, 96, 0.74);
+  padding: 0px;
+}
+
+/** Contacto **/
+.form-control {
+  width: 35%;
+}
+
+.mb-3 {
+  padding-left: 30px;
+}
+.mb-3 textarea {
+  margin-left: 0px;
+  min-width: 50%;
+}
+
+.mainContacto {
+  padding-top: 150px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+}
+.mainContacto h1 {
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+#exampleFormControlInput1 {
+  background-color: rgb(193, 193, 193);
+  min-width: 35%;
+}
+
+#exampleFormControlTextarea1 {
+  background-color: rgb(193, 193, 193);
+}
+
+.btn {
+  background-color: rgb(193, 193, 193);
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.form-label {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(128, 128, 128);
+}
+
+textarea {
+  border-radius: 3%;
+  border: solid wheat;
+  padding-left: 100px;
+  margin-left: 10px;
+}
+
+label {
+  padding-left: 10px;
+}
+
+form input {
+  background-color: rgb(193, 193, 193);
+}
+
+/** Footer **/
+footer {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+}
+footer div p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#redes {
+  display: flex;
+  justify-content: center;
+}
+
+.redes {
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+}
+
+hr {
+  color: white;
+  margin-bottom: 50px;
+}
+
+/** query contacto TABLET **/
+@media (max-width: 769px) {
+  .mb-3 #exampleFormControlInput1 {
+    min-width: 50%;
+  }
+  .mb-3 textarea {
+    min-width: 75%;
+  }
+}
+/** query contacto MOBILE **/
+@media (max-width: 426px) {
+  .mb-3 #exampleFormControlInput1 {
+    min-width: 75%;
+  }
+  .mb-3 textarea {
+    min-width: 80%;
+  }
+}
+
+/*# sourceMappingURL=style1.css.map */
