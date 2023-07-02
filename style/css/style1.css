@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-/** navbar **/
 .navbar {
   background-color: rgba(7, 7, 7, 0.946);
   position: fixed;
@@ -33,17 +32,15 @@ button .navbar-toggler-icon {
   background-color: rgb(128, 128, 128);
 }
 
-/** body **/
+body {
+  background-color: #144272;
+}
+
 #logo {
   height: 100vh;
   width: 100%;
 }
 
-body {
-  background-color: #144272;
-}
-
-/** Nosotros **/
 .mainNosotros {
   padding-top: 150px;
   font-family: "Nunito Sans", sans-serif;
@@ -89,7 +86,6 @@ p {
   padding: 30px;
 }
 
-/** Productos **/
 #productos {
   display: flex;
   justify-content: center;
@@ -115,7 +111,6 @@ p {
   font-weight: 600;
 }
 
-/** Trabajos **/
 .carousel-inner img {
   width: 600px;
   height: 550px;
@@ -220,7 +215,6 @@ p {
   padding: 0px;
 }
 
-/** Contacto **/
 .form-control {
   width: 35%;
 }
@@ -294,7 +288,6 @@ form input {
   background-color: rgb(193, 193, 193);
 }
 
-/** Footer **/
 footer {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 500;

@@ -1,0 +1,27 @@
+/** query contacto TABLET **/
+@media (max-width: 769px) {
+
+    .mb-3 {
+        #exampleFormControlInput1 {
+            min-width: 50%;
+        }
+
+        textarea {
+            min-width: 75%;
+        }
+    }
+}
+
+/** query contacto MOBILE **/
+@media (max-width: 426px) {
+
+    .mb-3 {
+        #exampleFormControlInput1 {
+            min-width: 75%;
+        }
+
+        textarea {
+            min-width: 80%;
+        }
+    }
+}

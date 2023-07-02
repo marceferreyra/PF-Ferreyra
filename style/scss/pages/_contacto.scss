@@ -1,0 +1,74 @@
+.form-control {
+    width: 35%;
+}
+
+.mb-3 {
+    padding-left: 30px;
+
+    textarea {
+        margin-left: 0px;
+        min-width: 50%;
+    }
+}
+
+.mainContacto {
+    padding-top: 150px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+
+    h1 {
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+}
+
+#exampleFormControlInput1 {
+    background-color: rgb(193, 193, 193);
+    min-width: 35%;
+}
+
+#exampleFormControlInput2 {
+    background-color: rgb(193, 193, 193);
+    min-width: 35%;
+  }
+
+  #exampleFormControlInput3 {
+    background-color: rgb(193, 193, 193);
+    min-width: 35%;
+  }
+
+  #exampleFormControlInput4 {
+    background-color: rgb(193, 193, 193);
+    min-width: 35%;
+  }
+
+#exampleFormControlTextarea1 {
+    background-color: rgb(193, 193, 193);
+}
+
+.btn {
+    background-color: rgb(193, 193, 193);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.form-label {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(128, 128, 128);
+}
+
+textarea {
+    border-radius: 3%;
+    border: solid wheat;
+    padding-left: 100px;
+    margin-left: 10px;
+}
+
+label {
+    padding-left: 10px;
+}
+
+form input {
+    background-color: rgb(193, 193, 193);
+}

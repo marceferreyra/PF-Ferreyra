@@ -1,0 +1,46 @@
+.mainNosotros {
+    padding-top: 150px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+body {
+    .mainNosotros {
+        width: 100%;
+    }
+}
+
+#nosotros {
+    padding-bottom: 25px;
+}
+
+h1 {
+    color: rgb(128, 128, 128);
+    padding-left: 5%;
+}
+
+h2 {
+    background-color: rgb(2, 23, 42);
+    height: 50px;
+    width: 100%;
+    color: rgba(128, 128, 128, 0.751);
+    margin-top: 5%;
+    margin-bottom: 0px;
+}
+
+p {
+    color: rgba(128, 128, 128, 0.72);
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
