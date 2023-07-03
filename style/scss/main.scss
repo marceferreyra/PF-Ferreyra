@@ -1,28 +1,20 @@
+//abstracts
+
+//base
 @import "./base/reset";
-
-// navbar
-@import "./layouts/navbar";
-
-// body
 @import "./base/body";
 
-// index
-@import "./pages/index";
+//components
+@import "./components/query";
 
-// Nosotros
-@import "./pages/nosotros";
-
-// Productos
-@import "./pages/productos";
-
-// Trabajos
-@import "./pages/trabajos";
-
-// Contacto 
-@import "./pages/contacto";
-
-// Footer
+//layouts
+@import "./layouts/navbar";
 @import "./layouts/footer";
 
-// querys
-@import "./components/query";
+//pages
+@import "./pages/index";
+@import "./pages/nosotros";
+@import "./pages/productos";
+@import "./pages/trabajos";
+@import "./pages/contacto";
+

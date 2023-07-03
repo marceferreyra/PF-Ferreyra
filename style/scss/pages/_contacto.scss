@@ -30,17 +30,17 @@
 #exampleFormControlInput2 {
     background-color: rgb(193, 193, 193);
     min-width: 35%;
-  }
+}
 
-  #exampleFormControlInput3 {
+#exampleFormControlInput3 {
     background-color: rgb(193, 193, 193);
     min-width: 35%;
-  }
+}
 
-  #exampleFormControlInput4 {
+#exampleFormControlInput4 {
     background-color: rgb(193, 193, 193);
     min-width: 35%;
-  }
+}
 
 #exampleFormControlTextarea1 {
     background-color: rgb(193, 193, 193);
@@ -50,6 +50,12 @@
     background-color: rgb(193, 193, 193);
     margin-left: 40px;
     margin-top: 40px;
+    color: black;
+
+    &:hover {
+        background-color: white;
+
+    }
 }
 
 .form-label {

@@ -5,6 +5,46 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #144272;
+}
+
+/** query contacto TABLET **/
+@media (max-width: 769px) {
+  .mb-3 #exampleFormControlInput1 {
+    min-width: 50%;
+  }
+  .mb-3 #exampleFormControlInput2 {
+    min-width: 50%;
+  }
+  .mb-3 #exampleFormControlInput3 {
+    min-width: 50%;
+  }
+  .mb-3 #exampleFormControlInput4 {
+    min-width: 50%;
+  }
+  .mb-3 #exampleFormControlTextarea1 {
+    min-width: 75%;
+  }
+}
+/** query contacto MOBILE **/
+@media (max-width: 426px) {
+  .mb-3 #exampleFormControlInput1 {
+    min-width: 75%;
+  }
+  .mb-3 #exampleFormControlInput2 {
+    min-width: 75%;
+  }
+  .mb-3 #exampleFormControlInput3 {
+    min-width: 75%;
+  }
+  .mb-3 #exampleFormControlInput4 {
+    min-width: 75%;
+  }
+  .mb-3 #exampleFormControlTextarea1 {
+    min-width: 85%;
+  }
+}
 .navbar {
   background-color: rgba(7, 7, 7, 0.946);
   position: fixed;
@@ -32,8 +72,38 @@ button .navbar-toggler-icon {
   background-color: rgb(128, 128, 128);
 }
 
-body {
-  background-color: #144272;
+footer {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+}
+footer div p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#redes {
+  display: flex;
+  justify-content: center;
+}
+
+.redes {
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+}
+
+#redes a {
+  transition: transform 0.3s ease;
+}
+
+#redes a:hover {
+  transform: scale(1.1);
+}
+
+hr {
+  color: white;
+  margin-bottom: 50px;
 }
 
 #logo {
@@ -115,6 +185,7 @@ p {
   width: 600px;
   height: 550px;
   padding: 40px;
+  object-fit: cover;
 }
 
 #trabajos {
@@ -265,6 +336,10 @@ p {
   background-color: rgb(193, 193, 193);
   margin-left: 40px;
   margin-top: 40px;
+  color: black;
+}
+.btn:hover {
+  background-color: white;
 }
 
 .form-label {
@@ -286,51 +361,6 @@ label {
 
 form input {
   background-color: rgb(193, 193, 193);
-}
-
-footer {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 500;
-}
-footer div p {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#redes {
-  display: flex;
-  justify-content: center;
-}
-
-.redes {
-  height: 60px;
-  width: 60px;
-  padding: 10px;
-}
-
-hr {
-  color: white;
-  margin-bottom: 50px;
-}
-
-/** query contacto TABLET **/
-@media (max-width: 769px) {
-  .mb-3 #exampleFormControlInput1 {
-    min-width: 50%;
-  }
-  .mb-3 textarea {
-    min-width: 75%;
-  }
-}
-/** query contacto MOBILE **/
-@media (max-width: 426px) {
-  .mb-3 #exampleFormControlInput1 {
-    min-width: 75%;
-  }
-  .mb-3 textarea {
-    min-width: 80%;
-  }
 }
 
 /*# sourceMappingURL=style1.css.map */
