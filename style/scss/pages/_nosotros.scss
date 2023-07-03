@@ -19,21 +19,21 @@ body {
 }
 
 h1 {
-    color: rgb(128, 128, 128);
+    color: $textColor;
     padding-left: 5%;
 }
 
 h2 {
-    background-color: rgb(2, 23, 42);
+    background-color: $backgroundTitle;
     height: 50px;
     width: 100%;
-    color: rgba(128, 128, 128, 0.751);
+    color: $textColor;
     margin-top: 5%;
     margin-bottom: 0px;
 }
 
 p {
-    color: rgba(128, 128, 128, 0.72);
+    color: $textColor;
     padding-left: 5%;
     padding-right: 5%;
     width: 100%;

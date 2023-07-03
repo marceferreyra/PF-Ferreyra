@@ -23,34 +23,34 @@
 }
 
 #exampleFormControlInput1 {
-    background-color: rgb(193, 193, 193);
+    background-color: $backgroundInput;
     min-width: 35%;
 }
 
 #exampleFormControlInput2 {
-    background-color: rgb(193, 193, 193);
+    background-color: $backgroundInput;
     min-width: 35%;
 }
 
 #exampleFormControlInput3 {
-    background-color: rgb(193, 193, 193);
+    background-color: $backgroundInput;
     min-width: 35%;
 }
 
 #exampleFormControlInput4 {
-    background-color: rgb(193, 193, 193);
+    background-color: $backgroundInput;
     min-width: 35%;
 }
 
 #exampleFormControlTextarea1 {
-    background-color: rgb(193, 193, 193);
+    background-color: $backgroundInput;
 }
 
 .btn {
-    background-color: rgb(193, 193, 193);
+    background-color: $backgroundInput;
     margin-left: 40px;
     margin-top: 40px;
-    color: black;
+    color: $backgroundTitle;
 
     &:hover {
         background-color: white;
@@ -61,12 +61,11 @@
 .form-label {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 500;
-    color: rgb(128, 128, 128);
+    color: $textColor;
 }
 
 textarea {
     border-radius: 3%;
-    border: solid wheat;
     padding-left: 100px;
     margin-left: 10px;
 }
@@ -76,5 +75,5 @@ label {
 }
 
 form input {
-    background-color: rgb(193, 193, 193);
+    background-color: $backgroundInput;
 }

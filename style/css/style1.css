@@ -60,7 +60,8 @@ body {
 }
 
 ul li a {
-  color: rgb(243, 234, 234) !important;
+  color: rgb(227, 227, 227) !important;
+  font-weight: 900;
 }
 
 .navbar-brand img {
@@ -69,7 +70,7 @@ ul li a {
 }
 
 button .navbar-toggler-icon {
-  background-color: rgb(128, 128, 128);
+  background-color: rgba(79, 81, 96, 0.74);
 }
 
 footer {
@@ -104,11 +105,17 @@ footer div p {
 hr {
   color: white;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 #logo {
+  display: flex;
+  justify-content: center;
+}
+#logo img {
   height: 100vh;
-  width: 100%;
+  width: 99%;
+  padding-top: 75px;
 }
 
 .mainNosotros {
@@ -130,7 +137,7 @@ body .mainNosotros {
 }
 
 h1 {
-  color: rgb(128, 128, 128);
+  color: rgb(200, 200, 200);
   padding-left: 5%;
 }
 
@@ -138,13 +145,13 @@ h2 {
   background-color: rgb(2, 23, 42);
   height: 50px;
   width: 100%;
-  color: rgba(128, 128, 128, 0.751);
+  color: rgb(200, 200, 200);
   margin-top: 5%;
   margin-bottom: 0px;
 }
 
 p {
-  color: rgba(128, 128, 128, 0.72);
+  color: rgb(200, 200, 200);
   padding-left: 5%;
   padding-right: 5%;
   width: 100%;
@@ -336,7 +343,7 @@ p {
   background-color: rgb(193, 193, 193);
   margin-left: 40px;
   margin-top: 40px;
-  color: black;
+  color: rgb(2, 23, 42);
 }
 .btn:hover {
   background-color: white;
@@ -345,12 +352,11 @@ p {
 .form-label {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 500;
-  color: rgb(128, 128, 128);
+  color: rgb(200, 200, 200);
 }
 
 textarea {
   border-radius: 3%;
-  border: solid wheat;
   padding-left: 100px;
   margin-left: 10px;
 }
