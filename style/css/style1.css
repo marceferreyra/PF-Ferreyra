@@ -98,6 +98,14 @@ ul li a {
     min-width: 85%;
   }
 }
+/* query home tablet*/
+@media (max-width: 769px) {
+  #logo img {
+    height: 70% !important;
+    padding-top: 92px !important;
+  }
+}
+
 .navbar {
   background-color: rgba(7, 7, 7, 0.946);
   position: fixed;
