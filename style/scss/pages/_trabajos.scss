@@ -8,29 +8,23 @@
 }
 
 #trabajos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-img;
     padding-top: 120px;
     padding-bottom: 50px;
 }
 
 #aberturas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-img;
     margin-top: 0px;
 }
 
 #fotoAberturas {
     background-color: $backgoundImg;
-    padding: 0px
+    padding: 0px;
 }
 
 #asadores {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-img;
     margin-top: 0px;
 }
 
@@ -40,9 +34,7 @@
 }
 
 #galerias {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-img;
 }
 
 #fotoGalerias {
@@ -51,9 +43,7 @@
 }
 
 #muebles {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-img;
 }
 
 #fotoMuebles {
@@ -62,9 +52,7 @@
 }
 
 #pyP {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-img;
 }
 
 #fotoPyP {
@@ -73,9 +61,7 @@
 }
 
 #espejos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-img;
 }
 
 #fotoEspejos {
@@ -84,9 +70,7 @@
 }
 
 #barandas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-img;
 }
 
 #fotoBarandas {
@@ -95,9 +79,7 @@
 }
 
 #mamparas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-img;
 }
 
 #fotoMamparas {

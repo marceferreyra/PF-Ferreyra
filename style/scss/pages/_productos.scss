@@ -1,21 +1,17 @@
 #productos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-img;
     padding-top: 120px;
     padding-bottom: 50px;
 }
 
 .productos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-img;
 }
 
 .img-fluidP {
     max-width: 100%;
     height: 500px !important;
-    
+
 }
 
 .mainProductos {

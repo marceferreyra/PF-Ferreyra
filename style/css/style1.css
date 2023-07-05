@@ -1,3 +1,9 @@
+#mamparas, #barandas, #espejos, #pyP, #muebles, #galerias, #asadores, #aberturas, #trabajos, .productos, #productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /** selector **/
 * {
   margin: 0;
@@ -9,42 +15,6 @@ body {
   background-color: #144272;
 }
 
-/** query contacto TABLET **/
-@media (max-width: 769px) {
-  .mb-3 #exampleFormControlInput1 {
-    min-width: 50%;
-  }
-  .mb-3 #exampleFormControlInput2 {
-    min-width: 50%;
-  }
-  .mb-3 #exampleFormControlInput3 {
-    min-width: 50%;
-  }
-  .mb-3 #exampleFormControlInput4 {
-    min-width: 50%;
-  }
-  .mb-3 #exampleFormControlTextarea1 {
-    min-width: 75%;
-  }
-}
-/** query contacto MOBILE **/
-@media (max-width: 426px) {
-  .mb-3 #exampleFormControlInput1 {
-    min-width: 75%;
-  }
-  .mb-3 #exampleFormControlInput2 {
-    min-width: 75%;
-  }
-  .mb-3 #exampleFormControlInput3 {
-    min-width: 75%;
-  }
-  .mb-3 #exampleFormControlInput4 {
-    min-width: 75%;
-  }
-  .mb-3 #exampleFormControlTextarea1 {
-    min-width: 85%;
-  }
-}
 /* query navbar */
 @media (max-width: 769px) {
   .navbar-collapse .ms-auto {
@@ -54,11 +24,80 @@ body {
     padding-top: 0px;
   }
 }
+
 #navcolor {
   background-color: rgba(7, 7, 7, 0.946);
   padding-bottom: 0px;
 }
 
+ul li a {
+  color: rgb(227, 227, 227) !important;
+  font-weight: 900;
+}
+@media (max-width: 769px) {
+  ul li {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 426px) {
+  ul li {
+    font-size: 0.6rem;
+  }
+}
+
+/** query contacto TABLET **/
+@media (max-width: 769px) {
+  .mb-3 #exampleFormControlInput1 {
+    min-width: 50%;
+  }
+}
+@media (max-width: 769px) {
+  .mb-3 #exampleFormControlInput2 {
+    min-width: 50%;
+  }
+}
+@media (max-width: 769px) {
+  .mb-3 #exampleFormControlInput3 {
+    min-width: 50%;
+  }
+}
+@media (max-width: 769px) {
+  .mb-3 #exampleFormControlInput4 {
+    min-width: 50%;
+  }
+}
+@media (max-width: 769px) {
+  .mb-3 #exampleFormControlTextarea1 {
+    min-width: 75%;
+  }
+}
+
+/** query contacto MOBILE **/
+@media (max-width: 426px) and (max-width: 426px) {
+  .mb-3 #exampleFormControlInput1 {
+    min-width: 75%;
+  }
+}
+@media (max-width: 426px) and (max-width: 426px) {
+  .mb-3 #exampleFormControlInput2 {
+    min-width: 75%;
+  }
+}
+@media (max-width: 426px) and (max-width: 426px) {
+  .mb-3 #exampleFormControlInput3 {
+    min-width: 75%;
+  }
+}
+@media (max-width: 426px) and (max-width: 426px) {
+  .mb-3 #exampleFormControlInput4 {
+    min-width: 75%;
+  }
+}
+@media (max-width: 426px) and (max-width: 426px) {
+  .mb-3 #exampleFormControlTextarea1 {
+    min-width: 85%;
+  }
+}
 .navbar {
   background-color: rgba(7, 7, 7, 0.946);
   position: fixed;
@@ -71,11 +110,6 @@ body {
   padding-left: 30px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
-}
-
-ul li a {
-  color: rgb(227, 227, 227) !important;
-  font-weight: 900;
 }
 
 .navbar-brand img {
@@ -178,17 +212,8 @@ p {
 }
 
 #productos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 120px;
   padding-bottom: 50px;
-}
-
-.productos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .img-fluidP {
@@ -210,17 +235,11 @@ p {
 }
 
 #trabajos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 120px;
   padding-bottom: 50px;
 }
 
 #aberturas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 0px;
 }
 
@@ -230,9 +249,6 @@ p {
 }
 
 #asadores {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 0px;
 }
 
@@ -241,21 +257,9 @@ p {
   padding: 0px;
 }
 
-#galerias {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #fotoGalerias {
   background-color: rgba(79, 81, 96, 0.74);
   padding: 0px;
-}
-
-#muebles {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #fotoMuebles {
@@ -263,21 +267,9 @@ p {
   padding: 0px;
 }
 
-#pyP {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #fotoPyP {
   background-color: rgba(79, 81, 96, 0.74);
   padding: 0px;
-}
-
-#espejos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #fotoEspejos {
@@ -285,21 +277,9 @@ p {
   padding: 0px;
 }
 
-#barandas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #fotoBarandas {
   background-color: rgba(79, 81, 96, 0.74);
   padding: 0px;
-}
-
-#mamparas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #fotoMamparas {
@@ -377,10 +357,6 @@ textarea {
 
 label {
   padding-left: 10px;
-}
-
-form input {
-  background-color: rgb(193, 193, 193);
 }
 
 /*# sourceMappingURL=style1.css.map */

@@ -1,12 +1,14 @@
 //abstracts
 @import "./abstracts/variables";
+@import "./abstracts/extends";
+@import "./abstracts/mixins";
 
 //base
 @import "./base/reset";
 @import "./base/body";
 
 //components
-@import "./components/query";
+@import "./components/queries";
 
 //layouts
 @import "./layouts/navbar";

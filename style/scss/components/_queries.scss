@@ -1,0 +1,107 @@
+/* query navbar */
+.navbar-collapse {
+    .ms-auto {
+        @include tablet {
+            display: flex;
+            align-items: flex-end;
+            background-color: $navbarColor;
+            padding-top: 0px;
+        }
+    }
+}
+
+#navcolor {
+    background-color: $navbarColor;
+    padding-bottom: 0px;
+}
+
+ul {
+    li {
+        a {
+            color: $navbarText !important;
+            font-weight: 900;
+        }
+
+        @include tablet {
+            font-size: 0.7rem;
+        }
+
+        @include mobile {
+            font-size: 0.6rem;
+        }
+    }
+}
+
+/** query contacto TABLET **/
+
+.mb-3 {
+
+    #exampleFormControlInput1 {
+        @include tablet {
+            min-width: 50%;
+        }
+
+    }
+
+    #exampleFormControlInput2 {
+        @include tablet {
+            min-width: 50%;
+        }
+    }
+
+    #exampleFormControlInput3 {
+        @include tablet {
+            min-width: 50%;
+        }
+    }
+
+    #exampleFormControlInput4 {
+        @include tablet {
+            min-width: 50%;
+        }
+    }
+
+    #exampleFormControlTextarea1 {
+        @include tablet {
+            min-width: 75%;
+        }
+    }
+}
+
+
+/** query contacto MOBILE **/
+@media (max-width: 426px) {
+
+    .mb-3 {
+        #exampleFormControlInput1 {
+            @include mobile {
+                min-width: 75%;
+            }
+
+        }
+
+        #exampleFormControlInput2 {
+            @include mobile {
+                min-width: 75%;
+            }
+        }
+
+        #exampleFormControlInput3 {
+            @include mobile {
+                min-width: 75%;
+            }
+        }
+
+        #exampleFormControlInput4 {
+            @include mobile {
+                min-width: 75%;
+            }
+        }
+
+        #exampleFormControlTextarea1 {
+            @include mobile {
+                min-width: 85%;
+            }
+        }
+    }
+}

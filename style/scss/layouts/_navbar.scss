@@ -12,15 +12,6 @@
     font-weight: 700;
 }
 
-ul {
-    li {
-        a {
-            color: $navbarText !important;
-            font-weight: 900;
-        }
-    }
-}
-
 .navbar-brand {
     img {
         height: 70px;
@@ -33,3 +24,4 @@ button {
         background-color: $backgoundImg;
     }
 }
+
