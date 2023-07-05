@@ -45,6 +45,20 @@ body {
     min-width: 85%;
   }
 }
+/* query navbar */
+@media (max-width: 769px) {
+  .navbar-collapse .ms-auto {
+    display: flex;
+    align-items: flex-end;
+    background-color: rgba(7, 7, 7, 0.946);
+    padding-top: 0px;
+  }
+}
+#navcolor {
+  background-color: rgba(7, 7, 7, 0.946);
+  padding-bottom: 0px;
+}
+
 .navbar {
   background-color: rgba(7, 7, 7, 0.946);
   position: fixed;

@@ -49,3 +49,21 @@
         }
     }
 }
+
+/* query navbar */
+@media (max-width: 769px) {
+    .navbar-collapse {
+        .ms-auto {
+            display: flex;
+            align-items: flex-end;
+            background-color: $navbarColor;
+            padding-top: 0px;
+        }
+
+    }
+}
+
+#navcolor {
+    background-color: $navbarColor;
+    padding-bottom: 0px;
+}
