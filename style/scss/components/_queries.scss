@@ -112,3 +112,19 @@ ul {
     }
 }
 
+/* query nosotros table */
+.cardproveedores {
+    @include tablet {
+        justify-content: center;
+        }
+    }
+
+    .proveedores {
+        img {
+            @include tablet {
+                height: 120px !important;
+                width: 200 px !important;
+            }
+        }
+        
+    }

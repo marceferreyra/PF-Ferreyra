@@ -106,6 +106,20 @@ ul li a {
   }
 }
 
+/* query nosotros table */
+@media (max-width: 769px) {
+  .cardproveedores {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 769px) {
+  .proveedores img {
+    height: 120px !important;
+    width: 200 px !important;
+  }
+}
+
 .navbar {
   background-color: rgba(7, 7, 7, 0.946);
   position: fixed;
@@ -216,7 +230,42 @@ p {
 .mapa {
   display: flex;
   justify-content: center;
-  padding: 30px;
+  padding: 5%;
+}
+
+.cardProveedores {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.cardProveedores .proveedores {
+  border-radius: 3%;
+  box-shadow: 0 0 10px;
+  background-color: white;
+  height: 150px;
+  width: 250px;
+}
+
+/* query nosotros tablet */
+@media (max-width: 769px) {
+  .cardProveedores .proveedores {
+    height: 120px;
+    width: 200px;
+  }
+}
+
+/* query nosotros mobile */
+@media (max-width: 426px) {
+  .cardProveedores {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cardProveedores .proveedores {
+    height: 120px;
+    width: 200px;
+    margin-bottom: 20px;
+  }
 }
 
 #productos {
