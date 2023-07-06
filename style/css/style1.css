@@ -17,17 +17,16 @@ body {
 
 /* query navbar */
 @media (max-width: 769px) {
-  .navbar-collapse .ms-auto {
+  .nav-item {
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
     background-color: rgba(7, 7, 7, 0.946);
-    padding-top: 0px;
+    padding-right: 20px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    font-size: 0.9rem;
+    margin-top: 0px;
   }
-}
-
-#navcolor {
-  background-color: rgba(7, 7, 7, 0.946);
-  padding-bottom: 0px;
 }
 
 ul li a {
@@ -36,12 +35,24 @@ ul li a {
 }
 @media (max-width: 769px) {
   ul li {
-    font-size: 0.7rem;
+    font-size: 0.9rem !important;
   }
 }
 @media (max-width: 426px) {
   ul li {
-    font-size: 0.6rem;
+    font-size: 0.8rem !important;
+  }
+}
+
+@media (max-width: 769px) {
+  #navbarNav {
+    transform: translate(10px, -14px);
+  }
+}
+
+@media (max-width: 769px) {
+  #navcolor {
+    background-color: rgba(7, 7, 7, 0.946);
   }
 }
 
@@ -101,22 +112,40 @@ ul li a {
 /* query home tablet*/
 @media (max-width: 769px) {
   #logo img {
-    height: 70% !important;
+    height: 500px !important;
     padding-top: 92px !important;
   }
 }
 
-/* query nosotros table */
-@media (max-width: 769px) {
-  .cardproveedores {
-    justify-content: center;
+/* query home mobile */
+@media (max-width: 426px) {
+  #logo img {
+    height: 400% !important;
+    padding-top: 92px !important;
   }
 }
 
+/* query nosotros tablet */
+.cardProveedores {
+  justify-content: center;
+}
 @media (max-width: 769px) {
-  .proveedores img {
-    height: 120px !important;
-    width: 200 px !important;
+  .cardProveedores .proveedores {
+    height: 120px;
+    width: 200px;
+  }
+}
+
+/* query nosotros mobile */
+@media (max-width: 426px) {
+  .cardProveedores {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cardProveedores .proveedores {
+    height: 120px;
+    width: 200px;
+    margin-bottom: 20px;
   }
 }
 
@@ -183,7 +212,7 @@ hr {
   justify-content: center;
 }
 #logo img {
-  height: 100vh;
+  height: 655px;
   width: 99%;
   padding-top: 75px;
 }
@@ -248,26 +277,6 @@ p {
 }
 
 /* query nosotros tablet */
-@media (max-width: 769px) {
-  .cardProveedores .proveedores {
-    height: 120px;
-    width: 200px;
-  }
-}
-
-/* query nosotros mobile */
-@media (max-width: 426px) {
-  .cardProveedores {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .cardProveedores .proveedores {
-    height: 120px;
-    width: 200px;
-    margin-bottom: 20px;
-  }
-}
-
 #productos {
   padding-top: 120px;
   padding-bottom: 50px;

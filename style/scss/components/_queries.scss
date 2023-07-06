@@ -1,18 +1,15 @@
 /* query navbar */
-.navbar-collapse {
-    .ms-auto {
-        @include tablet {
-            display: flex;
-            align-items: flex-end;
-            background-color: $navbarColor;
-            padding-top: 0px;
-        }
+.nav-item {
+    @include tablet {
+        display: flex;
+        justify-content: flex-end;
+        background-color: $navbarColor;
+        padding-right: 20px;
+        border-bottom: 1px solid white;
+        width: 100%;
+        font-size: 0.9rem;
+        margin-top: 0px;
     }
-}
-
-#navcolor {
-    background-color: $navbarColor;
-    padding-bottom: 0px;
 }
 
 ul {
@@ -23,14 +20,27 @@ ul {
         }
 
         @include tablet {
-            font-size: 0.7rem;
+            font-size: 0.9rem !important;
         }
 
         @include mobile {
-            font-size: 0.6rem;
+            font-size: 0.8rem !important;
         }
     }
 }
+
+#navbarNav {
+    @include tablet {
+        transform: translate(10px, -14px);
+            }
+}
+
+#navcolor {
+    @include tablet {
+        background-color: $navbarColor;
+    }
+}
+
 
 /** query contacto TABLET **/
 .mb-3 {
@@ -106,15 +116,26 @@ ul {
 #logo {
     img {
         @include tablet {
-            height: 70% !important;
+            height: 500px !important;
             padding-top: 92px !important;
         }
     }
 }
 
-/* query nosotros table */
+/* query home mobile */
+#logo {
+    img {
+        @include mobile {
+            height: 400% !important;
+            padding-top: 92px !important;
+        }
+    }
+}
+
+/* query nosotros tablet */
 .cardProveedores {
     justify-content: center;
+
     @include tablet {
         .proveedores {
             height: 120px;
