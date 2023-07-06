@@ -113,18 +113,26 @@ ul {
 }
 
 /* query nosotros table */
-.cardproveedores {
+.cardProveedores {
+    justify-content: center;
     @include tablet {
-        justify-content: center;
+        .proveedores {
+            height: 120px;
+            width: 200px;
         }
     }
+}
 
-    .proveedores {
-        img {
-            @include tablet {
-                height: 120px !important;
-                width: 200 px !important;
-            }
+/* query nosotros mobile */
+.cardProveedores {
+    @include mobile {
+        display: flex;
+        flex-wrap: wrap;
+
+        .proveedores {
+            height: 120px;
+            width: 200px;
+            margin-bottom: 20px;
         }
-        
     }
+}

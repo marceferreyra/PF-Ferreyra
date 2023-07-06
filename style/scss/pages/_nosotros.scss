@@ -62,25 +62,5 @@ p {
 }
 
 /* query nosotros tablet */
-.cardProveedores {
-    @include tablet {
-        .proveedores {
-            height: 120px;
-            width: 200px;
-        }
-    }
-}
 
-/* query nosotros mobile */
-.cardProveedores {
-    @include mobile {
-        display: flex;
-        flex-wrap: wrap;
 
-        .proveedores {
-            height: 120px;
-            width: 200px;
-            margin-bottom: 20px;
-        }
-    }
-}
