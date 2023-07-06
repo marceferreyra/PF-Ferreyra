@@ -172,6 +172,22 @@ button .navbar-toggler-icon {
   background-color: rgba(79, 81, 96, 0.74);
 }
 
+.nav-item a {
+  transform: 0.3s ease;
+}
+
+.nav-item a:hover {
+  transform: scale(1.1);
+}
+
+.navbar-brand {
+  transform: 0.3 ease;
+}
+
+.navbar-brand :hover {
+  transform: scale(1.1);
+}
+
 footer {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 500;
