@@ -38,6 +38,7 @@ ul {
     @include tablet {
         background-color: $navbarColor;
         margin-bottom: 0px;
+        height: 260px;
     }
 }
 
