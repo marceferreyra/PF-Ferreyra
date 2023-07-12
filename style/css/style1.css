@@ -109,7 +109,7 @@ ul li a {
     min-width: 85%;
   }
 }
-/* query home tablet*/
+/* query home TABLET*/
 @media (max-width: 769px) {
   #logo img {
     height: 500px !important;
@@ -117,17 +117,21 @@ ul li a {
   }
 }
 
-/* query home mobile */
+/* query home MOBILE */
 @media (max-width: 426px) {
   #logo img {
-    height: 400% !important;
+    margin-top: 20px;
+    height: 400px !important;
     padding-top: 92px !important;
   }
 }
 
-/* query nosotros tablet */
-.cardProveedores {
-  justify-content: center;
+/* query nosotros TABLET */
+@media (max-width: 769px) {
+  .cardProveedores {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 769px) {
   .cardProveedores .proveedores {
@@ -136,7 +140,13 @@ ul li a {
   }
 }
 
-/* query nosotros mobile */
+@media (max-width: 769px) {
+  #logoVasa {
+    margin-top: 50px;
+  }
+}
+
+/* query nosotros MOBILE */
 @media (max-width: 426px) {
   .cardProveedores {
     display: flex;
@@ -147,6 +157,35 @@ ul li a {
     width: 200px;
     margin-bottom: 20px;
   }
+}
+
+@media (max-width: 426px) {
+  #logoVasa {
+    margin-top: 0px;
+  }
+}
+
+div p {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* query footer TABLET */
+@media (max-width: 769px) {
+  #footerResponsive p {
+    font-size: 0.9rem;
+  }
+}
+
+/* query footer MOBILE */
+@media (max-width: 426px) {
+  div p {
+    font-size: 0.8rem !important;
+  }
+}
+
+#redes a img {
+  height: 85%;
 }
 
 .navbar {
@@ -248,12 +287,12 @@ body .mainNosotros {
 }
 
 #nosotros {
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 
 h1 {
   color: rgb(200, 200, 200);
-  padding-left: 5%;
+  padding-left: 20px;
 }
 
 h2 {
@@ -267,8 +306,8 @@ h2 {
 
 p {
   color: rgb(200, 200, 200);
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 30px;
+  padding-right: 30px;
   width: 100%;
 }
 
@@ -292,7 +331,6 @@ p {
   width: 250px;
 }
 
-/* query nosotros tablet */
 #productos {
   padding-top: 120px;
   padding-bottom: 50px;

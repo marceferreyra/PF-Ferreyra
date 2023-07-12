@@ -112,7 +112,7 @@ ul {
     }
 }
 
-/* query home tablet*/
+/* query home TABLET*/
 #logo {
     img {
         @include tablet {
@@ -122,19 +122,23 @@ ul {
     }
 }
 
-/* query home mobile */
+/* query home MOBILE */
 #logo {
     img {
         @include mobile {
-            height: 400% !important;
+            margin-top: 20px;
+            height: 400px !important;
             padding-top: 92px !important;
         }
     }
 }
 
-/* query nosotros tablet */
+/* query nosotros TABLET */
 .cardProveedores {
-    justify-content: center;
+    @include tablet {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     @include tablet {
         .proveedores {
@@ -144,7 +148,13 @@ ul {
     }
 }
 
-/* query nosotros mobile */
+#logoVasa {
+    @include tablet {
+        margin-top: 50px;
+    }
+}
+
+/* query nosotros MOBILE */
 .cardProveedores {
     @include mobile {
         display: flex;
@@ -155,5 +165,44 @@ ul {
             width: 200px;
             margin-bottom: 20px;
         }
+    }
+}#logoVasa {
+    @include mobile {
+        margin-top: 0px;
+    }
+}
+
+
+div {
+    p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/* query footer TABLET */
+#footerResponsive {
+    p {
+        @include tablet {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+/* query footer MOBILE */
+div {
+    p {
+        @include mobile {
+            font-size: 0.8rem !important;
+        }
+    }
+}
+
+#redes {
+    a {
+        img {
+            height: 85%;
+        }
+
     }
 }
