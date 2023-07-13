@@ -113,7 +113,7 @@ ul {
 }
 
 /* query home TABLET*/
-main {
+.mainHome {
     @include tablet {
         height: 90vh !important;
     }
@@ -129,7 +129,7 @@ main {
 }
 
 /* query home MOBILE */
-main {
+.mainHome {
     @include mobile {
         height: 100vh !important;
     }

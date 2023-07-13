@@ -111,7 +111,7 @@ ul li a {
 }
 /* query home TABLET*/
 @media (max-width: 769px) {
-  main {
+  .mainHome {
     height: 90vh !important;
   }
 }
@@ -125,7 +125,7 @@ ul li a {
 
 /* query home MOBILE */
 @media (max-width: 426px) {
-  main {
+  .mainHome {
     height: 100vh !important;
   }
 }
@@ -272,8 +272,8 @@ hr {
   padding-top: 75px;
 }
 
-main {
-  height: 110vh;
+.mainHome {
+  height: 110vh !important;
 }
 
 .mainNosotros {
