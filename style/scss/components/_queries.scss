@@ -113,21 +113,33 @@ ul {
 }
 
 /* query home TABLET*/
+main {
+    @include tablet {
+        height: 90vh !important;
+    }
+}
+
 #logo {
     img {
         @include tablet {
-            height: 500px !important;
+            height: 90vh !important;
             padding-top: 92px !important;
         }
     }
 }
 
 /* query home MOBILE */
+main {
+    @include mobile {
+        height: 100vh !important;
+    }
+}
+
 #logo {
     img {
         @include mobile {
             margin-top: 20px;
-            height: 400px !important;
+            height: 75vh !important;
             padding-top: 92px !important;
         }
     }
@@ -148,12 +160,6 @@ ul {
     }
 }
 
-#logoVasa {
-    @include tablet {
-        margin-top: 50px;
-    }
-}
-
 /* query nosotros MOBILE */
 .cardProveedores {
     @include mobile {
@@ -166,12 +172,7 @@ ul {
             margin-bottom: 20px;
         }
     }
-}#logoVasa {
-    @include mobile {
-        margin-top: 0px;
-    }
 }
-
 
 div {
     p {
@@ -201,7 +202,7 @@ div {
 #redes {
     a {
         img {
-            height: 85%;
+            height: 95%;
         }
 
     }
