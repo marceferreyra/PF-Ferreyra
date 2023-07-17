@@ -379,12 +379,55 @@ p {
 .img-fluidP {
   max-width: 100%;
   height: 500px !important;
+  object-fit: cover;
 }
 
 .mainProductos {
   padding-top: 100px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
+}
+
+.texto-description {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 33%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(200, 200, 200);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  padding: 10px;
+  transition: bottom 0.3s ease;
+}
+
+.descriptionHierro {
+  position: relative;
+}
+
+.descriptionHierro:hover .texto-description {
+  bottom: 0;
+  visibility: visible;
+}
+
+.descriptionAluminio {
+  position: relative;
+}
+
+.descriptionAluminio:hover .texto-description {
+  bottom: 0;
+  visibility: visible;
+}
+
+.descriptionVidrio {
+  position: relative;
+}
+
+.descriptionVidrio:hover .texto-description {
+  bottom: 0;
+  visibility: visible;
 }
 
 .carousel-inner img {
