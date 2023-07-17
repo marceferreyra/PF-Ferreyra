@@ -83,6 +83,12 @@ ul li a {
   }
 }
 
+@media (max-width: 769px) {
+  .form-select {
+    min-width: 50%;
+  }
+}
+
 /** query contacto MOBILE **/
 @media (max-width: 426px) and (max-width: 426px) {
   .mb-3 #exampleFormControlInput1 {
@@ -109,6 +115,12 @@ ul li a {
     min-width: 85%;
   }
 }
+@media (max-width: 426px) {
+  .form-select {
+    min-width: 75%;
+  }
+}
+
 /* query home TABLET*/
 @media (max-width: 769px) {
   .mainHome {
@@ -505,6 +517,18 @@ textarea {
 
 label {
   padding-left: 10px;
+}
+
+.select {
+  padding-left: 30px;
+}
+.select .form-select {
+  width: 35%;
+  background-color: rgb(193, 193, 193);
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(2, 23, 42);
 }
 
 /*# sourceMappingURL=style1.css.map */

@@ -74,3 +74,18 @@ label {
     padding-left: 10px;
 }
 
+.select {
+    padding-left: 30px;
+
+    .form-select {
+        width: 35%;
+        background-color: $backgroundInput;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: $backgroundTitle;
+    }
+}
+          
+ 
+   
