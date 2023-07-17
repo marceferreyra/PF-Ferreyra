@@ -46,6 +46,7 @@ ul li a {
 @media (max-width: 769px) {
   #navbarNav {
     transform: translate(10px, -14px);
+    height: 180px;
   }
 }
 
@@ -622,7 +623,7 @@ label {
   width: 35%;
   background-color: rgb(193, 193, 193);
   margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 45px;
   font-family: "Nunito Sans", sans-serif;
   color: rgb(2, 23, 42);
 }
