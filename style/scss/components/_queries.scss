@@ -145,7 +145,32 @@ ul {
     }
 }
 
+/* query nosotros */
+@media (max-width: 992px) {
+    #logoVasa {
+        margin-top: 25px;
+    }
+    #logoAluar {
+        margin-top: 25px;
+    }
+    #logoFexa {
+        margin-top: 25px;
+    }
+}
+
 /* query nosotros TABLET */
+#logoAluar {
+    @include tablet {
+        margin-top: 25px;
+    }
+}
+
+#logoFexa {
+    @include tablet {
+        margin-top: 25px;
+    }
+}
+
 .cardProveedores {
     @include tablet {
         display: flex;
