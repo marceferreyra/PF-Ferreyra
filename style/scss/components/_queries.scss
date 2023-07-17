@@ -162,9 +162,11 @@ ul {
     #logoVasa {
         margin-top: 25px;
     }
+
     #logoAluar {
         margin-top: 25px;
     }
+
     #logoFexa {
         margin-top: 25px;
     }
@@ -242,5 +244,36 @@ div {
             height: 95%;
         }
 
+    }
+}
+
+/* query productos TABLET */
+.texto-description {
+    @include tablet {
+        height: 46.75% !important;
+    }
+}
+
+#listHierro {
+    @include tablet {
+        transform: translate(0px, -7px);
+    }
+}
+
+#listAluminio {
+    @include tablet {
+        transform: translate(0px, -7px);
+    }
+}
+
+#listVidrio {
+    @include tablet {
+        transform: translate(0px, -7px);
+    }
+}
+
+@media (max-width: 426px) {
+    .texto-description {
+        height: 44% !important;
     }
 }
