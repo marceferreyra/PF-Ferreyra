@@ -1,4 +1,4 @@
-#mamparas, #barandas, #espejos, #pyP, #muebles, #galerias, #asadores, #aberturas, #trabajos, .productos, #productos {
+#mamparas, #barandas, #espejos, #pyP, #muebles, #galerias, #asadores, #aberturas, #trabajos, #cards, .productos, #productos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -421,7 +421,7 @@ p {
 
 .texto-description {
   position: absolute;
-  bottom: -100%;
+  bottom: -10%;
   left: 0;
   visibility: hidden;
   width: 100%;
@@ -431,7 +431,7 @@ p {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
   padding: 10px;
-  transition: bottom 0.4s ease;
+  transition: bottom 0.5s ease;
 }
 
 .descriptionHierro {
@@ -482,6 +482,28 @@ ul .list-group-item {
 
 #listVidrio {
   font-size: 0.8rem;
+}
+
+#cards {
+  padding-top: 150px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-text {
+  color: rgb(2, 23, 42);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+}
+
+.card-body {
+  height: 150px;
+  background-color: rgba(79, 81, 96, 0.74);
+}
+
+.card-img-top {
+  height: 200px;
+  background-color: rgb(193, 193, 193);
 }
 
 .carousel-inner img {
