@@ -130,7 +130,7 @@ ul {
     @media (max-width: 992px) {
         flex-direction: column-reverse;
         align-items: center;
-        height: 150vh !important;     
+        height: 150vh !important;
     }
 }
 
@@ -144,11 +144,24 @@ ul {
     }
 }
 
+#logoPrincipal {
+    @include tablet {
+        transform: translateY(30px);
+    }
+}
+
 /* query home MOBILE */
 .gridHome {
     @include mobile {
         align-items: center !important;
     }
+}
+
+#logoPrincipal {
+    @include mobile {
+        transform: translatey(-50px);
+    }
+
 }
 
 /* query nosotros */
@@ -269,5 +282,32 @@ div {
 @media (max-width: 426px) {
     .texto-description {
         height: 44% !important;
+    }
+}
+
+/* query productos TABLET */
+#trabajosPeronalizados {
+    @media (max-width: 864px) {
+        margin-top: 30px;
+    }
+}
+
+#asesoramiento {
+    @media (max-width: 864px) {
+        margin-top: 30px;
+    }
+}
+
+#presupuesto {
+    @media (max-width: 864px) {
+        margin-top: 30px;
+    }
+}
+
+/* query productos MOBILE */
+
+#presupuesto{
+    @include mobile {
+        margin-top: 30px;
     }
 }

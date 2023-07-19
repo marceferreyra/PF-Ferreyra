@@ -115,4 +115,5 @@ ul {
 .card-img-top {
     height: 200px;
     background-color: $backgroundInput;
+    object-fit: contain;
 }

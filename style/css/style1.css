@@ -139,10 +139,22 @@ ul li a {
   }
 }
 
+@media (max-width: 769px) {
+  #logoPrincipal {
+    transform: translateY(30px);
+  }
+}
+
 /* query home MOBILE */
 @media (max-width: 426px) {
   .gridHome {
     align-items: center !important;
+  }
+}
+
+@media (max-width: 426px) {
+  #logoPrincipal {
+    transform: translatey(-50px);
   }
 }
 
@@ -250,6 +262,32 @@ div p {
     height: 44% !important;
   }
 }
+/* query productos TABLET */
+@media (max-width: 864px) {
+  #trabajosPeronalizados {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 864px) {
+  #asesoramiento {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 864px) {
+  #presupuesto {
+    margin-top: 30px;
+  }
+}
+
+/* query productos MOBILE */
+@media (max-width: 426px) {
+  #presupuesto {
+    margin-top: 30px;
+  }
+}
+
 .navbar {
   background-color: rgba(7, 7, 7, 0.946);
   position: fixed;
@@ -328,7 +366,10 @@ hr {
   display: flex;
   flex-direction: column;
 }
-#logo .buttonHome a button {
+#logo .buttonHome .btn {
+  margin-left: 0px;
+}
+#logo .buttonHome button {
   background-color: rgba(64, 64, 64, 0.8);
   color: rgb(227, 227, 227);
   height: 75px;
@@ -522,6 +563,7 @@ ul .list-group-item {
 .card-img-top {
   height: 200px;
   background-color: rgb(193, 193, 193);
+  object-fit: contain;
 }
 
 .carousel-inner img {
