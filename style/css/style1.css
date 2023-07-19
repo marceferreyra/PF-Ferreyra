@@ -122,32 +122,27 @@ ul li a {
   }
 }
 
-/* query home TABLET*/
-@media (max-width: 769px) {
-  .mainHome {
-    height: 90vh !important;
+/*query home lg*/
+@media (max-width: 992px) {
+  .gridHome {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 150vh !important;
   }
 }
 
+/*query home TABLET*/
 @media (max-width: 769px) {
-  #logo img {
-    height: 90vh !important;
-    padding-top: 92px !important;
+  .buttonHome .btn {
+    min-width: 150px;
+    min-height: 20px;
   }
 }
 
 /* query home MOBILE */
 @media (max-width: 426px) {
-  .mainHome {
-    height: 100vh !important;
-  }
-}
-
-@media (max-width: 426px) {
-  #logo img {
-    margin-top: 20px;
-    height: 75vh !important;
-    padding-top: 92px !important;
+  .gridHome {
+    align-items: center !important;
   }
 }
 
@@ -329,44 +324,41 @@ hr {
   margin-top: 50px;
 }
 
-#logo {
-  padding-top: 75px;
-  background-image: url("/img/logo/foto-portada.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 110vh;
-}
 #logo .buttonHome {
   display: flex;
   flex-direction: column;
 }
-#logo .buttonHome button {
-  background-color: rgba(64, 64, 64, 0.7);
+#logo .buttonHome a button {
+  background-color: rgba(64, 64, 64, 0.8);
   color: rgb(227, 227, 227);
   height: 75px;
   width: 250px;
   border: solid rgba(79, 81, 96, 0.74);
   font-family: "Nunito Sans", sans-serif;
   font-weight: 800;
-  transform: translate(23px, 50px);
 }
 
 #logoPrincipal {
   width: fit-content;
 }
 #logoPrincipal img {
-  background-color: rgba(64, 64, 64, 0.7);
-  transform: translate(-5px, 60px);
+  background-color: rgba(64, 64, 64, 0.8);
 }
 
 .gridHome {
+  padding-top: 75px;
+  background-image: url("../../img/logo/foto-portada.jpg");
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  padding: 15px;
-  justify-content: space-around;
+  height: 110vh;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  height: 110vh;
 }
 
 .mainNosotros {
