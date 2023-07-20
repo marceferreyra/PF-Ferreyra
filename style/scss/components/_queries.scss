@@ -154,6 +154,7 @@ ul {
 .gridHome {
     @include mobile {
         align-items: center !important;
+        
     }
 }
 
@@ -161,7 +162,11 @@ ul {
     @include mobile {
         transform: translatey(-30px);
     }
-
+}
+.mainHome {
+    @include mobile {
+        height: 142vh;
+    }
 }
 
 /* query nosotros */
