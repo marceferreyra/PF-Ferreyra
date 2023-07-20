@@ -46,3 +46,16 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+.buttonHome {
+    a {
+        transform: 0.3s ease;
+    }
+}
+
+.buttonHome {
+
+    a:hover {
+        transform: scale(1.03);
+    }
+}

@@ -405,6 +405,14 @@ hr {
   flex-wrap: wrap;
 }
 
+.buttonHome a {
+  transform: 0.3s ease;
+}
+
+.buttonHome a:hover {
+  transform: scale(1.03);
+}
+
 .mainNosotros {
   padding-top: 150px;
   font-family: "Nunito Sans", sans-serif;
