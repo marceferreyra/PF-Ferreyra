@@ -154,7 +154,7 @@ ul li a {
 
 @media (max-width: 426px) {
   #logoPrincipal {
-    transform: translatey(-50px);
+    transform: translatey(-30px);
   }
 }
 
@@ -201,6 +201,7 @@ ul li a {
   .cardProveedores {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .cardProveedores .proveedores {
     height: 120px;
@@ -384,6 +385,8 @@ hr {
 }
 #logoPrincipal img {
   background-color: rgba(64, 64, 64, 0.8);
+  border-radius: 1%;
+  border: solid rgba(79, 81, 96, 0.74);
 }
 
 .gridHome {
