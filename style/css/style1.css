@@ -569,6 +569,10 @@ ul .list-group-item {
   object-fit: contain;
 }
 
+#cards div {
+  border: solid 2px rgba(79, 81, 96, 0.74);
+}
+
 .carousel-inner img {
   width: 600px;
   height: 550px;

@@ -99,6 +99,7 @@ ul {
     padding-top: 150px;
     justify-content: space-around;
     flex-wrap: wrap;
+   
 }
 
 .card-text {
@@ -110,10 +111,18 @@ ul {
 .card-body {
     height: 150px;
     background-color: $backgoundImg;
+    
 }
 
 .card-img-top {
     height: 200px;
     background-color: $backgroundInput;
     object-fit: contain;
+}
+
+#cards {
+    div {
+    border: solid 2px $backgoundImg;
+
+    }
 }
