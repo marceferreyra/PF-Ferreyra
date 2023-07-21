@@ -84,8 +84,6 @@ ul {
 
 
 /** query contacto MOBILE **/
-@media (max-width: 426px) {
-
     .mb-3 {
         #exampleFormControlInput1 {
             @include mobile {
@@ -117,7 +115,6 @@ ul {
             }
         }
     }
-}
 
 .form-select {
     @include mobile {
@@ -261,7 +258,7 @@ div {
 }
 
 /* query productos TABLET */
-.texto-description {
+.text-description {
     @include tablet {
         height: 46.75% !important;
     }
@@ -286,7 +283,7 @@ div {
 }
 
 @media (max-width: 426px) {
-    .texto-description {
+    .text-description {
         height: 44% !important;
     }
 }

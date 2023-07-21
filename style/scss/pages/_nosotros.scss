@@ -20,7 +20,7 @@ body {
 
 h1 {
     color: $textColor;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
 h2 {
@@ -43,24 +43,4 @@ p {
     display: flex;
     justify-content: center;
     padding: 5%;
-    
 }
-
-.cardProveedores .row {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: space-around;
-
-    .proveedores {
-        border-radius: 3%;
-        box-shadow: 0 0 10px;
-        background-color: white;
-        height: 150px;
-        width: 250px;
-    }
-}
-
-
-
-

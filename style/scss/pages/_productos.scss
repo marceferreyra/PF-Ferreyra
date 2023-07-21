@@ -94,44 +94,6 @@ ul {
     font-size: 0.8rem;
 }
 
-#cards {
-    @extend %flex-img;
-    padding-top: 150px;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-}
-
-.card-text {
-    color: $backgroundTitle;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 600;
-}
-
-.card-body {
-    height: 150px;
-    background-color: $backgoundImg;
-
-}
-
-.card-img-top {
-    height: 200px;
-    background-color: $backgroundInput;
-    object-fit: contain;
-}
-
-#cards {
-    div {
-        border: solid 2px $backgoundImg;
-
-    }
-}
-
-#presupuesto {
-    img {
-        padding: 5px;
-    }
-}
 
 .text-description {
     ul {

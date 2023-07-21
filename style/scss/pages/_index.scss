@@ -1,24 +1,3 @@
-#logo {
-    .buttonHome {
-        display: flex;
-        flex-direction: column;
-
-        .btn {
-            margin-left: 0px;
-        }
-
-        button {
-            background-color: rgba(64, 64, 64, 0.8);
-            color: $navbarText;
-            height: 75px;
-            width: 250px;
-            border: solid $backgoundImg;
-            font-family: 'Nunito Sans', sans-serif;
-            font-weight: 800;
-        }
-    }
-}
-
 #logoPrincipal {
     width: fit-content;
 
@@ -45,15 +24,3 @@
     flex-wrap: wrap;
 }
 
-.buttonHome {
-    a {
-        transform: 0.3s ease;
-    }
-}
-
-.buttonHome {
-
-    a:hover {
-        transform: scale(1.03);
-    }
-}
