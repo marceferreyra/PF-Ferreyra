@@ -593,7 +593,16 @@ ul .list-group-item {
 
 .text-description ul a {
   text-decoration: none;
-  border: none;
+}
+.text-description ul a li {
+  border-width: 0 0 var(--bs-list-group-border-width);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  text-decoration: none;
+}
+.text-description ul a li #banderolas {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
 }
 
 .carousel-inner img {

@@ -99,7 +99,7 @@ ul {
     padding-top: 150px;
     justify-content: space-around;
     flex-wrap: wrap;
-   
+
 }
 
 .card-text {
@@ -111,7 +111,7 @@ ul {
 .card-body {
     height: 150px;
     background-color: $backgoundImg;
-    
+
 }
 
 .card-img-top {
@@ -122,7 +122,7 @@ ul {
 
 #cards {
     div {
-    border: solid 2px $backgoundImg;
+        border: solid 2px $backgoundImg;
 
     }
 }
@@ -130,14 +130,24 @@ ul {
 #presupuesto {
     img {
         padding: 5px;
-      }
+    }
 }
 
 .text-description {
     ul {
         a {
             text-decoration: none;
-            border: none;
+            li {
+                border-width: 0 0 var(--bs-list-group-border-width);
+                border-top-left-radius: inherit;
+                border-top-right-radius: inherit;
+                text-decoration: none;
+               #banderolas {
+             border-bottom-left-radius: inherit;
+             border-bottom-right-radius: inherit;                           
+               }
+            }
         }
+        
     }
 }
