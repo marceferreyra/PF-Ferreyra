@@ -127,7 +127,7 @@ ul li a {
   .gridHome {
     flex-direction: column-reverse;
     align-items: center;
-    height: 150vh !important;
+    height: 145vh !important;
   }
 }
 
@@ -315,7 +315,7 @@ div p {
 }
 
 button .navbar-toggler-icon {
-  background-color: rgba(79, 81, 96, 0.74);
+  background-color: rgba(64, 64, 64, 0.6);
 }
 
 .nav-item a {
@@ -381,7 +381,7 @@ hr {
   color: rgb(227, 227, 227);
   height: 75px;
   width: 250px;
-  border: solid rgba(79, 81, 96, 0.74);
+  border: solid rgba(64, 64, 64, 0.6);
   font-family: "Nunito Sans", sans-serif;
   font-weight: 800;
 }
@@ -392,7 +392,7 @@ hr {
 #logoPrincipal img {
   background-color: rgba(64, 64, 64, 0.8);
   border-radius: 1%;
-  border: solid rgba(79, 81, 96, 0.74);
+  border: solid rgba(64, 64, 64, 0.6);
 }
 
 .gridHome {
@@ -495,7 +495,7 @@ p {
   font-weight: 600;
 }
 
-.texto-description {
+.text-description {
   position: absolute;
   bottom: -10%;
   left: 0;
@@ -514,7 +514,7 @@ p {
   position: relative;
 }
 
-.descriptionHierro:hover .texto-description {
+.descriptionHierro:hover .text-description {
   bottom: 0;
   visibility: visible;
 }
@@ -523,7 +523,7 @@ p {
   position: relative;
 }
 
-.descriptionAluminio:hover .texto-description {
+.descriptionAluminio:hover .text-description {
   bottom: 0;
   visibility: visible;
 }
@@ -532,7 +532,7 @@ p {
   position: relative;
 }
 
-.descriptionVidrio:hover .texto-description {
+.descriptionVidrio:hover .text-description {
   bottom: 0;
   visibility: visible;
 }
@@ -574,7 +574,7 @@ ul .list-group-item {
 
 .card-body {
   height: 150px;
-  background-color: rgba(79, 81, 96, 0.74);
+  background-color: rgba(64, 64, 64, 0.6);
 }
 
 .card-img-top {
@@ -584,7 +584,16 @@ ul .list-group-item {
 }
 
 #cards div {
-  border: solid 2px rgba(79, 81, 96, 0.74);
+  border: solid 2px rgba(64, 64, 64, 0.6);
+}
+
+#presupuesto img {
+  padding: 5px;
+}
+
+.text-description ul a {
+  text-decoration: none;
+  border: none;
 }
 
 .carousel-inner img {
@@ -604,7 +613,7 @@ ul .list-group-item {
 }
 
 #fotoAberturas {
-  background-color: rgba(79, 81, 96, 0.74);
+  background-color: rgba(64, 64, 64, 0.6);
   padding: 0px;
 }
 
@@ -613,38 +622,42 @@ ul .list-group-item {
 }
 
 #fotoAsadores {
-  background-color: rgba(79, 81, 96, 0.74);
+  background-color: rgba(64, 64, 64, 0.6);
   padding: 0px;
 }
 
 #fotoGalerias {
-  background-color: rgba(79, 81, 96, 0.74);
+  background-color: rgba(64, 64, 64, 0.6);
   padding: 0px;
 }
 
 #fotoMuebles {
-  background-color: rgba(79, 81, 96, 0.74);
+  background-color: rgba(64, 64, 64, 0.6);
   padding: 0px;
 }
 
 #fotoPyP {
-  background-color: rgba(79, 81, 96, 0.74);
+  background-color: rgba(64, 64, 64, 0.6);
   padding: 0px;
 }
 
 #fotoEspejos {
-  background-color: rgba(79, 81, 96, 0.74);
+  background-color: rgba(64, 64, 64, 0.6);
   padding: 0px;
 }
 
 #fotoBarandas {
-  background-color: rgba(79, 81, 96, 0.74);
+  background-color: rgba(64, 64, 64, 0.6);
   padding: 0px;
 }
 
 #fotoMamparas {
-  background-color: rgba(79, 81, 96, 0.74);
+  background-color: rgba(64, 64, 64, 0.6);
   padding: 0px;
+}
+
+.carousel-control-next-icon.custom-next-icon::before {
+  color: purple;
 }
 
 .form-control {

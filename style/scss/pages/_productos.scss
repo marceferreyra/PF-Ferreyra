@@ -20,7 +20,7 @@
     font-weight: 600;
 }
 
-.texto-description {
+.text-description {
     position: absolute;
     bottom: -10%;
     left: 0;
@@ -40,7 +40,7 @@
 }
 
 .descriptionHierro:hover {
-    .texto-description {
+    .text-description {
         bottom: 0;
         visibility: visible;
     }
@@ -51,7 +51,7 @@
 }
 
 .descriptionAluminio:hover {
-    .texto-description {
+    .text-description {
         bottom: 0;
         visibility: visible;
     }
@@ -62,7 +62,7 @@
 }
 
 .descriptionVidrio:hover {
-    .texto-description {
+    .text-description {
         bottom: 0;
         visibility: visible;
     }
@@ -124,5 +124,20 @@ ul {
     div {
     border: solid 2px $backgoundImg;
 
+    }
+}
+
+#presupuesto {
+    img {
+        padding: 5px;
+      }
+}
+
+.text-description {
+    ul {
+        a {
+            text-decoration: none;
+            border: none;
+        }
     }
 }
