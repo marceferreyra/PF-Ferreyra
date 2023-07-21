@@ -600,9 +600,41 @@ ul .list-group-item {
   border-top-right-radius: inherit;
   text-decoration: none;
 }
-.text-description ul a li #banderolas {
-  border-bottom-left-radius: inherit;
-  border-bottom-right-radius: inherit;
+
+#portones {
+  border-bottom: none;
+}
+
+#banderolas {
+  border-bottom: none;
+}
+
+#barandaList {
+  border-bottom: none;
+}
+
+#listHierro a {
+  transform: 0.3s ease;
+}
+
+#listHierro a:hover {
+  transform: scale(1.03);
+}
+
+#listAluminio a {
+  transform: 0.3s ease;
+}
+
+#listAluminio a:hover {
+  transform: scale(1.03);
+}
+
+#listVidrio a {
+  transform: 0.3s ease;
+}
+
+#listVidrio a:hover {
+  transform: scale(1.03);
 }
 
 .carousel-inner img {
